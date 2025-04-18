@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "pkief.material-icon-theme",
+        "tamasfe.even-better-toml",
+        "ms-python.black-formatter",
+        "oderwat.indent-rainbow",
+        "mhutchie.git-graph"
+    ]
+}

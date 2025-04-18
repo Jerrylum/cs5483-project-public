@@ -1,0 +1,56 @@
+services:
+  keepalive:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: group-project-server-keepalive
+    restart: always
+    volumes:
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+      - SELENIUM_REMOTE_URL=http://selenium:4444
+      - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
+    stdin_open: true # Keep STDIN open even if not attached
+    tty: true # Allocate a pseudo-TTY
+    depends_on:
+      selenium:
+        condition: service_healthy # wait for selenium to be ready
+    networks:
+      - compose-network
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1GB
+
+  selenium:
+    image: selenium/standalone-chrome:latest
+    platform: linux/amd64
+    container_name: selenium-chrome
+    restart: always
+    shm_size: 2g # Increase shared memory size to prevent browser crashes
+    environment:
+      - SE_NODE_MAX_SESSIONS=1
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    ports:
+      - '4444:4444' # Selenium server
+      - '7900:7900' # noVNC for browser viewing (optional)
+    networks:
+      - compose-network
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:4444/wd/hub/status']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 3GB
+
+networks:
+  compose-network:
+    # comment out if you want to use noVNC
+    driver: bridge

@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Data directories
+/data/
+/backup/
+
+# Log files
+*.log
+
+# MongoDB diagnostic data
+/diagnostic.data/
+/journal/
+/mongod.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

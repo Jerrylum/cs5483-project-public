@@ -1,0 +1,25 @@
+{
+  "name": "statistics",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --env-file=.env --env-file=../mongodb-0/.env --watch src/index.ts",
+    "start": "bun run --env-file=.env --env-file=../mongodb-0/.env src/index.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@elysiajs/cors": "latest",
+    "elysia": "latest",
+    "mongodb": "^6.14.2",
+    "master-0": "file:../master-0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "typescript": "latest"
+  }
+}

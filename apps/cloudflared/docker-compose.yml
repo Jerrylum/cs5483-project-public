@@ -1,0 +1,10 @@
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    extra_hosts:
+      - "host.docker.internal:host-gateway" # might be needed for some host machines
+    restart: always
+    command: tunnel --no-autoupdate --protocol http2 run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+    env_file:
+      - .env

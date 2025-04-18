@@ -1,0 +1,28 @@
+{
+  "name": "consumer-code",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "latest",
+    "@octokit/types": "latest",
+    "elysia": "latest",
+    "master-0": "file:../master-0",
+    "mongodb": "latest",
+    "octokit": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

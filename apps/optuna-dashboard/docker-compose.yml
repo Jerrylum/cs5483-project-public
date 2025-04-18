@@ -1,0 +1,23 @@
+services:
+  optuna-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: optuna-dashboard
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../../stages/data-mining/result.sqlite3:/app/result.sqlite3:ro
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - optuna-network
+
+networks:
+  optuna-network:
+    driver: bridge

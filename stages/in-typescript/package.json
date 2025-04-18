@@ -1,0 +1,28 @@
+{
+  "name": "stages-in-typescript",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/parquetjs": "^0.10.6",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "latest",
+    "@octokit/types": "latest",
+    "@sinclair/typebox": "0.34.30",
+    "elysia": "latest",
+    "master-0": "file:../../apps/master-0",
+    "mongodb": "latest",
+    "octokit": "latest",
+    "parquetjs": "^0.11.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

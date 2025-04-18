@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "latest",
+    "@octokit/types": "latest",
+    "elysia": "latest",
+    "master-0": "file:../../apps/master-0",
+    "mongodb": "latest",
+    "octokit": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

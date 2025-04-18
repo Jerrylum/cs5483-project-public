@@ -1,0 +1,738 @@
+[
+  {
+    "repo_id": "repo-10270250",
+    "repo_url": "https://github.com/facebook/react"
+  },
+  {
+    "repo_id": "repo-11730342",
+    "repo_url": "https://github.com/vuejs/vue"
+  },
+  {
+    "repo_id": "repo-45717250",
+    "repo_url": "https://github.com/tensorflow/tensorflow"
+  },
+  {
+    "repo_id": "repo-614765452",
+    "repo_url": "https://github.com/Significant-Gravitas/AutoGPT"
+  },
+  {
+    "repo_id": "repo-2126244",
+    "repo_url": "https://github.com/twbs/bootstrap"
+  },
+  {
+    "repo_id": "repo-31792824",
+    "repo_url": "https://github.com/flutter/flutter"
+  },
+  {
+    "repo_id": "repo-41881900",
+    "repo_url": "https://github.com/microsoft/vscode"
+  },
+  {
+    "repo_id": "repo-527591471",
+    "repo_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  },
+  {
+    "repo_id": "repo-155220641",
+    "repo_url": "https://github.com/huggingface/transformers"
+  },
+  {
+    "repo_id": "repo-1039520",
+    "repo_url": "https://github.com/ytdl-org/youtube-dl"
+  },
+  {
+    "repo_id": "repo-658928958",
+    "repo_url": "https://github.com/ollama/ollama"
+  },
+  {
+    "repo_id": "repo-70107786",
+    "repo_url": "https://github.com/vercel/next.js"
+  },
+  {
+    "repo_id": "repo-23096959",
+    "repo_url": "https://github.com/golang/go"
+  },
+  {
+    "repo_id": "repo-29028775",
+    "repo_url": "https://github.com/facebook/react-native"
+  },
+  {
+    "repo_id": "repo-111583593",
+    "repo_url": "https://github.com/Genymobile/scrcpy"
+  },
+  {
+    "repo_id": "repo-184456251",
+    "repo_url": "https://github.com/microsoft/PowerToys"
+  },
+  {
+    "repo_id": "repo-9384267",
+    "repo_url": "https://github.com/electron/electron"
+  },
+  {
+    "repo_id": "repo-20580498",
+    "repo_url": "https://github.com/kubernetes/kubernetes"
+  },
+  {
+    "repo_id": "repo-27193779",
+    "repo_url": "https://github.com/nodejs/node"
+  },
+  {
+    "repo_id": "repo-23088740",
+    "repo_url": "https://github.com/axios/axios"
+  },
+  {
+    "repo_id": "repo-576201",
+    "repo_url": "https://github.com/mrdoob/three.js"
+  },
+  {
+    "repo_id": "repo-307260205",
+    "repo_url": "https://github.com/yt-dlp/yt-dlp"
+  },
+  {
+    "repo_id": "repo-552661142",
+    "repo_url": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "repo_id": "repo-20929025",
+    "repo_url": "https://github.com/microsoft/TypeScript"
+  },
+  {
+    "repo_id": "repo-63537249",
+    "repo_url": "https://github.com/facebook/create-react-app"
+  },
+  {
+    "repo_id": "repo-133442384",
+    "repo_url": "https://github.com/denoland/deno"
+  },
+  {
+    "repo_id": "repo-724712",
+    "repo_url": "https://github.com/rust-lang/rust"
+  },
+  {
+    "repo_id": "repo-100060912",
+    "repo_url": "https://github.com/microsoft/terminal"
+  },
+  {
+    "repo_id": "repo-24195339",
+    "repo_url": "https://github.com/angular/angular"
+  },
+  {
+    "repo_id": "repo-15634981",
+    "repo_url": "https://github.com/godotengine/godot"
+  },
+  {
+    "repo_id": "repo-23083156",
+    "repo_url": "https://github.com/mui/material-ui"
+  },
+  {
+    "repo_id": "repo-231283452",
+    "repo_url": "https://github.com/excalidraw/excalidraw"
+  },
+  {
+    "repo_id": "repo-34526884",
+    "repo_url": "https://github.com/ant-design/ant-design"
+  },
+  {
+    "repo_id": "repo-74791366",
+    "repo_url": "https://github.com/ryanmcdermott/clean-code-javascript"
+  },
+  {
+    "repo_id": "repo-908531752",
+    "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3"
+  },
+  {
+    "repo_id": "repo-48378947",
+    "repo_url": "https://github.com/fatedier/frp"
+  },
+  {
+    "repo_id": "repo-157616880",
+    "repo_url": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "repo_id": "repo-33614304",
+    "repo_url": "https://github.com/nvbn/thefuck"
+  },
+  {
+    "repo_id": "repo-196701619",
+    "repo_url": "https://github.com/tauri-apps/tauri"
+  },
+  {
+    "repo_id": "repo-90796663",
+    "repo_url": "https://github.com/puppeteer/puppeteer"
+  },
+  {
+    "repo_id": "repo-88464704",
+    "repo_url": "https://github.com/PanJiaChen/vue-element-admin"
+  },
+  {
+    "repo_id": "repo-65600975",
+    "repo_url": "https://github.com/pytorch/pytorch"
+  },
+  {
+    "repo_id": "repo-16408992",
+    "repo_url": "https://github.com/neovim/neovim"
+  },
+  {
+    "repo_id": "repo-106017343",
+    "repo_url": "https://github.com/tailwindlabs/tailwindcss"
+  },
+  {
+    "repo_id": "repo-54173593",
+    "repo_url": "https://github.com/storybookjs/storybook"
+  },
+  {
+    "repo_id": "repo-299354207",
+    "repo_url": "https://github.com/rustdesk/rustdesk"
+  },
+  {
+    "repo_id": "repo-701547123",
+    "repo_url": "https://github.com/open-webui/open-webui"
+  },
+  {
+    "repo_id": "repo-626805178",
+    "repo_url": "https://github.com/langgenius/dify"
+  },
+  {
+    "repo_id": "repo-585146387",
+    "repo_url": "https://github.com/shadcn-ui/ui"
+  },
+  {
+    "repo_id": "repo-612230",
+    "repo_url": "https://github.com/nvm-sh/nvm"
+  },
+  {
+    "repo_id": "repo-1181927",
+    "repo_url": "https://github.com/bitcoin/bitcoin"
+  },
+  {
+    "repo_id": "repo-160919119",
+    "repo_url": "https://github.com/fastapi/fastapi"
+  },
+  {
+    "repo_id": "repo-612344730",
+    "repo_url": "https://github.com/ChatGPTNextWeb/NextChat"
+  },
+  {
+    "repo_id": "repo-74293321",
+    "repo_url": "https://github.com/sveltejs/svelte"
+  },
+  {
+    "repo_id": "repo-2561582",
+    "repo_url": "https://github.com/animate-css/animate.css"
+  },
+  {
+    "repo_id": "repo-52631841",
+    "repo_url": "https://github.com/gothinkster/realworld"
+  },
+  {
+    "repo_id": "repo-5108051",
+    "repo_url": "https://github.com/opencv/opencv"
+  },
+  {
+    "repo_id": "repo-20904437",
+    "repo_url": "https://github.com/gin-gonic/gin"
+  },
+  {
+    "repo_id": "repo-214587193",
+    "repo_url": "https://github.com/supabase/supabase"
+  },
+  {
+    "repo_id": "repo-11180687",
+    "repo_url": "https://github.com/gohugoio/hugo"
+  },
+  {
+    "repo_id": "repo-26500787",
+    "repo_url": "https://github.com/tonsky/FiraCode"
+  },
+  {
+    "repo_id": "repo-51117837",
+    "repo_url": "https://github.com/tensorflow/models"
+  },
+  {
+    "repo_id": "repo-12888993",
+    "repo_url": "https://github.com/home-assistant/core"
+  },
+  {
+    "repo_id": "repo-26066727",
+    "repo_url": "https://github.com/mermaid-js/mermaid"
+  },
+  {
+    "repo_id": "repo-357728969",
+    "repo_url": "https://github.com/oven-sh/bun"
+  },
+  {
+    "repo_id": "repo-612354784",
+    "repo_url": "https://github.com/ggml-org/llama.cpp"
+  },
+  {
+    "repo_id": "repo-6296790",
+    "repo_url": "https://github.com/spring-projects/spring-boot"
+  },
+  {
+    "repo_id": "repo-32689863",
+    "repo_url": "https://github.com/3b1b/manim"
+  },
+  {
+    "repo_id": "repo-3470471",
+    "repo_url": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  {
+    "repo_id": "repo-14747598",
+    "repo_url": "https://github.com/typicode/json-server"
+  },
+  {
+    "repo_id": "repo-10744183",
+    "repo_url": "https://github.com/netdata/netdata"
+  },
+  {
+    "repo_id": "repo-619959033",
+    "repo_url": "https://github.com/nomic-ai/gpt4all"
+  },
+  {
+    "repo_id": "repo-507775",
+    "repo_url": "https://github.com/elastic/elasticsearch"
+  },
+  {
+    "repo_id": "repo-278335273",
+    "repo_url": "https://github.com/anuraghazra/github-readme-stats"
+  },
+  {
+    "repo_id": "repo-257485422",
+    "repo_url": "https://github.com/vitejs/vite"
+  },
+  {
+    "repo_id": "repo-589831718",
+    "repo_url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  {
+    "repo_id": "repo-221981891",
+    "repo_url": "https://github.com/microsoft/playwright"
+  },
+  {
+    "repo_id": "repo-172953845",
+    "repo_url": "https://github.com/coder/code-server"
+  },
+  {
+    "repo_id": "repo-203587744",
+    "repo_url": "https://github.com/hoppscotch/hoppscotch"
+  },
+  {
+    "repo_id": "repo-523379232",
+    "repo_url": "https://github.com/CompVis/stable-diffusion"
+  },
+  {
+    "repo_id": "repo-80945428",
+    "repo_url": "https://github.com/nestjs/nest"
+  },
+  {
+    "repo_id": "repo-7691631",
+    "repo_url": "https://github.com/moby/moby"
+  },
+  {
+    "repo_id": "repo-718741813",
+    "repo_url": "https://github.com/abi/screenshot-to-code"
+  },
+  {
+    "repo_id": "repo-13807606",
+    "repo_url": "https://github.com/junegunn/fzf"
+  },
+  {
+    "repo_id": "repo-14712850",
+    "repo_url": "https://github.com/syncthing/syncthing"
+  },
+  {
+    "repo_id": "repo-596115135",
+    "repo_url": "https://github.com/base/node"
+  },
+  {
+    "repo_id": "repo-1861458",
+    "repo_url": "https://github.com/hakimel/reveal.js"
+  },
+  {
+    "repo_id": "repo-44838949",
+    "repo_url": "https://github.com/swiftlang/swift"
+  },
+  {
+    "repo_id": "repo-193215554",
+    "repo_url": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "repo_id": "repo-616372661",
+    "repo_url": "https://github.com/binary-husky/gpt_academic"
+  },
+  {
+    "repo_id": "repo-15111821",
+    "repo_url": "https://github.com/grafana/grafana"
+  },
+  {
+    "repo_id": "repo-23357588",
+    "repo_url": "https://github.com/protocolbuffers/protobuf"
+  },
+  {
+    "repo_id": "repo-382496361",
+    "repo_url": "https://github.com/louislam/uptime-kuma"
+  },
+  {
+    "repo_id": "repo-81598961",
+    "repo_url": "https://github.com/python/cpython"
+  },
+  {
+    "repo_id": "repo-43441403",
+    "repo_url": "https://github.com/strapi/strapi"
+  },
+  {
+    "repo_id": "repo-8843683",
+    "repo_url": "https://github.com/chartjs/Chart.js"
+  },
+  {
+    "repo_id": "repo-246335987",
+    "repo_url": "https://github.com/ventoy/Ventoy"
+  },
+  {
+    "repo_id": "repo-22887094",
+    "repo_url": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+    "repo_id": "repo-3678731",
+    "repo_url": "https://github.com/webpack/webpack"
+  },
+  {
+    "repo_id": "repo-39464018",
+    "repo_url": "https://github.com/apache/superset"
+  },
+  {
+    "repo_id": "repo-147350463",
+    "repo_url": "https://github.com/leonardomso/33-js-concepts"
+  },
+  {
+    "repo_id": "repo-3638964",
+    "repo_url": "https://github.com/ansible/ansible"
+  },
+  {
+    "repo_id": "repo-22067521",
+    "repo_url": "https://github.com/ocornut/imgui"
+  },
+  {
+    "repo_id": "repo-162998479",
+    "repo_url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+    "repo_id": "repo-619859161",
+    "repo_url": "https://github.com/twitter/the-algorithm"
+  },
+  {
+    "repo_id": "repo-13233158",
+    "repo_url": "https://github.com/obsproject/obs-studio"
+  },
+  {
+    "repo_id": "repo-33015583",
+    "repo_url": "https://github.com/keras-team/keras"
+  },
+  {
+    "repo_id": "repo-77213120",
+    "repo_url": "https://github.com/Eugeny/tabby"
+  },
+  {
+    "repo_id": "repo-331107018",
+    "repo_url": "https://github.com/FuelLabs/sway"
+  },
+  {
+    "repo_id": "repo-29207621",
+    "repo_url": "https://github.com/caddyserver/caddy"
+  },
+  {
+    "repo_id": "repo-9185792",
+    "repo_url": "https://github.com/apache/echarts"
+  },
+  {
+    "repo_id": "repo-557980",
+    "repo_url": "https://github.com/socketio/socket.io"
+  },
+  {
+    "repo_id": "repo-120538304",
+    "repo_url": "https://github.com/kelseyhightower/nocode"
+  },
+  {
+    "repo_id": "repo-455229168",
+    "repo_url": "https://github.com/immich-app/immich"
+  },
+  {
+    "repo_id": "repo-377496562",
+    "repo_url": "https://github.com/AppFlowy-IO/AppFlowy"
+  },
+  {
+    "repo_id": "repo-843222",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn"
+  },
+  {
+    "repo_id": "repo-18408635",
+    "repo_url": "https://github.com/chrislgarry/Apollo-11"
+  },
+  {
+    "repo_id": "repo-3955647",
+    "repo_url": "https://github.com/lodash/lodash"
+  },
+  {
+    "repo_id": "repo-4311796",
+    "repo_url": "https://github.com/adam-p/markdown-here"
+  },
+  {
+    "repo_id": "repo-54544023",
+    "repo_url": "https://github.com/Alvin9999/new-pac"
+  },
+  {
+    "repo_id": "repo-167174",
+    "repo_url": "https://github.com/jquery/jquery"
+  },
+  {
+    "repo_id": "repo-578822531",
+    "repo_url": "https://github.com/localsend/localsend"
+  },
+  {
+    "repo_id": "repo-94911145",
+    "repo_url": "https://github.com/facebook/docusaurus"
+  },
+  {
+    "repo_id": "repo-666299222",
+    "repo_url": "https://github.com/OpenInterpreter/open-interpreter"
+  },
+  {
+    "repo_id": "repo-7600409",
+    "repo_url": "https://github.com/shadowsocks/shadowsocks-windows"
+  },
+  {
+    "repo_id": "repo-163883279",
+    "repo_url": "https://github.com/nektos/act"
+  },
+  {
+    "repo_id": "repo-51980455",
+    "repo_url": "https://github.com/alacritty/alacritty"
+  },
+  {
+    "repo_id": "repo-71948498",
+    "repo_url": "https://github.com/localstack/localstack"
+  },
+  {
+    "repo_id": "repo-601538369",
+    "repo_url": "https://github.com/meta-llama/llama"
+  },
+  {
+    "repo_id": "repo-643445235",
+    "repo_url": "https://github.com/lobehub/lobe-chat"
+  },
+  {
+    "repo_id": "repo-134017286",
+    "repo_url": "https://github.com/jesseduffield/lazygit"
+  },
+  {
+    "repo_id": "repo-290882787",
+    "repo_url": "https://github.com/FuelLabs/fuel-core"
+  },
+  {
+    "repo_id": "repo-6838921",
+    "repo_url": "https://github.com/prometheus/prometheus"
+  },
+  {
+    "repo_id": "repo-1148753",
+    "repo_url": "https://github.com/spring-projects/spring-framework"
+  },
+  {
+    "repo_id": "repo-42489829",
+    "repo_url": "https://github.com/rust-lang/rustlings"
+  },
+  {
+    "repo_id": "repo-8514",
+    "repo_url": "https://github.com/rails/rails"
+  },
+  {
+    "repo_id": "repo-71995937",
+    "repo_url": "https://github.com/nuxt/nuxt"
+  },
+  {
+    "repo_id": "repo-36040894",
+    "repo_url": "https://github.com/gatsbyjs/gatsby"
+  },
+  {
+    "repo_id": "repo-340547520",
+    "repo_url": "https://github.com/zed-industries/zed"
+  },
+  {
+    "repo_id": "repo-635240594",
+    "repo_url": "https://github.com/zylon-ai/private-gpt"
+  },
+  {
+    "repo_id": "repo-173228436",
+    "repo_url": "https://github.com/NationalSecurityAgency/ghidra"
+  },
+  {
+    "repo_id": "repo-529502",
+    "repo_url": "https://github.com/scrapy/scrapy"
+  },
+  {
+    "repo_id": "repo-83844720",
+    "repo_url": "https://github.com/ageitgey/face_recognition"
+  },
+  {
+    "repo_id": "repo-19872456",
+    "repo_url": "https://github.com/remix-run/react-router"
+  },
+  {
+    "repo_id": "repo-594155488",
+    "repo_url": "https://github.com/Stirling-Tools/Stirling-PDF"
+  },
+  {
+    "repo_id": "repo-67274736",
+    "repo_url": "https://github.com/ElemeFE/element"
+  },
+  {
+    "repo_id": "repo-188660663",
+    "repo_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning"
+  },
+  {
+    "repo_id": "repo-42408804",
+    "repo_url": "https://github.com/traefik/traefik"
+  },
+  {
+    "repo_id": "repo-575340621",
+    "repo_url": "https://github.com/lencx/ChatGPT"
+  },
+  {
+    "repo_id": "repo-92443980",
+    "repo_url": "https://github.com/jgraph/drawio-desktop"
+  },
+  {
+    "repo_id": "repo-108761645",
+    "repo_url": "https://github.com/nocodb/nocodb"
+  },
+  {
+    "repo_id": "repo-264818686",
+    "repo_url": "https://github.com/ultralytics/yolov5"
+  },
+  {
+    "repo_id": "repo-74627617",
+    "repo_url": "https://github.com/commaai/openpilot"
+  },
+  {
+    "repo_id": "repo-1700621",
+    "repo_url": "https://github.com/necolas/normalize.css"
+  },
+  {
+    "repo_id": "repo-660551251",
+    "repo_url": "https://github.com/geekan/MetaGPT"
+  },
+  {
+    "repo_id": "repo-138547797",
+    "repo_url": "https://github.com/FiloSottile/mkcert"
+  },
+  {
+    "repo_id": "repo-1362490",
+    "repo_url": "https://github.com/psf/requests"
+  },
+  {
+    "repo_id": "repo-254832799",
+    "repo_url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "repo_id": "repo-599320067",
+    "repo_url": "https://github.com/langflow-ai/langflow"
+  },
+  {
+    "repo_id": "repo-130464961",
+    "repo_url": "https://github.com/sharkdp/bat"
+  },
+  {
+    "repo_id": "repo-12256376",
+    "repo_url": "https://github.com/ionic-team/ionic-framework"
+  },
+  {
+    "repo_id": "repo-102969245",
+    "repo_url": "https://github.com/golang-standards/project-layout"
+  },
+  {
+    "repo_id": "repo-220809393",
+    "repo_url": "https://github.com/Textualize/rich"
+  },
+  {
+    "repo_id": "repo-9309093",
+    "repo_url": "https://github.com/Semantic-Org/Semantic-UI"
+  },
+  {
+    "repo_id": "repo-721767116",
+    "repo_url": "https://github.com/clash-verge-rev/clash-verge-rev"
+  },
+  {
+    "repo_id": "repo-53631945",
+    "repo_url": "https://github.com/BurntSushi/ripgrep"
+  },
+  {
+    "repo_id": "repo-53809090",
+    "repo_url": "https://github.com/juliangarnier/anime"
+  },
+  {
+    "repo_id": "repo-20619036",
+    "repo_url": "https://github.com/pi-hole/pi-hole"
+  },
+  {
+    "repo_id": "repo-771302083",
+    "repo_url": "https://github.com/All-Hands-AI/OpenHands"
+  },
+  {
+    "repo_id": "repo-20300177",
+    "repo_url": "https://github.com/google/guava"
+  },
+  {
+    "repo_id": "repo-773286980",
+    "repo_url": "https://github.com/xai-org/grok-1"
+  },
+  {
+    "repo_id": "repo-75104123",
+    "repo_url": "https://github.com/prettier/prettier"
+  },
+  {
+    "repo_id": "repo-1663468",
+    "repo_url": "https://github.com/mozilla/pdf.js"
+  },
+  {
+    "repo_id": "repo-269336148",
+    "repo_url": "https://github.com/sickcodes/Docker-OSX"
+  },
+  {
+    "repo_id": "repo-133251103",
+    "repo_url": "https://github.com/wagoodman/dive"
+  },
+  {
+    "repo_id": "repo-348060227",
+    "repo_url": "https://github.com/withastro/astro"
+  },
+  {
+    "repo_id": "repo-130688011",
+    "repo_url": "https://github.com/meilisearch/meilisearch"
+  },
+  {
+    "repo_id": "repo-65252",
+    "repo_url": "https://github.com/jekyll/jekyll"
+  },
+  {
+    "repo_id": "repo-50264296",
+    "repo_url": "https://github.com/jgthms/bulma"
+  },
+  {
+    "repo_id": "repo-6093316",
+    "repo_url": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "repo_id": "repo-17803236",
+    "repo_url": "https://github.com/rclone/rclone"
+  },
+  {
+    "repo_id": "repo-618058471",
+    "repo_url": "https://github.com/facebookresearch/segment-anything"
+  },
+  {
+    "repo_id": "repo-137078487",
+    "repo_url": "https://github.com/vuejs/core"
+  },
+  {
+    "repo_id": "repo-110446844",
+    "repo_url": "https://github.com/marktext/marktext"
+  }
+]

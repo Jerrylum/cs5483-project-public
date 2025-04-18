@@ -1,0 +1,25 @@
+Best params:
+{'iterations': 172, 'learning_rate': 0.09715924482477767, 'objective': 'CrossEntropy', 'colsample_bylevel': 0.5319227177927707, 'depth': 9, 'boosting_type': 'Plain', 'bootstrap_type': 'MVS', 'subsample': 0.9996678938930479}
+10-fold CV 準確率: 0.6707322589318193
+
+Feature importances rank:
+1. comments: 42.62881166398819
+2. commits: 16.5785492704354
+3. changed_files: 11.572798102367072
+4. additions: 10.592621214594125
+5. review_comments: 9.644245138300533
+6. deletions: 8.982974610314676
+
+Confusion matrix:
+[[ 717 1443]
+ [ 502 2898]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0    0.58819   0.33194   0.42439      2160
+           1    0.66759   0.85235   0.74874      3400
+
+    accuracy                        0.65018      5560
+   macro avg    0.62789   0.59215   0.58656      5560
+weighted avg    0.63674   0.65018   0.62273      5560

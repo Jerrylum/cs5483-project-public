@@ -1,0 +1,20 @@
+{
+    "name": "Bun TypeScript API",
+    "image": "oven/bun:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "postCreateCommand": "bun install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-typescript.typescript-language-features",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    },
+    "runArgs": [
+        "--add-host",
+        "host.docker.internal:host-gateway"
+    ]
+}

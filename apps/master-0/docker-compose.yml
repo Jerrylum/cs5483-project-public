@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  master-0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8000:8000'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway' # might be needed for some host machines
+    env_file:
+      - .env
+      - ../mongodb-0/.env
+    volumes:
+      - ./src:/app/src
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge

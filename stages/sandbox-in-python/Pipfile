@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+requests = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+xgboost = "*"
+pyarrow = "*"
+util = {editable = true, path = "../../util"}
+optuna-dashboard = "*"
+matplotlib = "*"
+plotly = "*"
+nbformat = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

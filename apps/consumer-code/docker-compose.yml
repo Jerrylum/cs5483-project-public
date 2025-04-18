@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  consumer:
+    image: oven/bun:latest
+    container_name: consumer-code
+    working_dir: /app
+    extra_hosts:
+      - 'host.docker.internal:host-gateway' # might be needed for some host machines
+    env_file:
+      - ../mongodb-0/.env
+    volumes:
+      - ./src:/app/src
+      - ./package.json:/app/package.json
+      - ./bun.lock:/app/bun.lock
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./.tokens:/app/.tokens
+      - ../master-0:/master-0
+    networks:
+      - consumer-network
+    restart: unless-stopped
+    command: sh -c "bun install --production && bun run src/index.ts"
+
+networks:
+  consumer-network:
+    driver: bridge

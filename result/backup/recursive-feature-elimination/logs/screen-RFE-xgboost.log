@@ -1,0 +1,17 @@
+bash: _parse_usage: line 16: syntax error near unexpected token `('
+bash: _parse_usage: line 16: ` -?(\[)+([a-zA-Z0-9?]))'
+bash: error importing function definition for `_parse_usage'
+bash: _xinetd_services: line 5: syntax error near unexpected token `('
+bash: _xinetd_services: line 5: ` local -a svcs=($(printf '%s\n' $xinetddir/!($_backup_glob)));'
+bash: warning: _xinetd_services: ignoring function definition attempt
+bash: error importing function definition for `_xinetd_services'
+bash: _services: line 5: syntax error near unexpected token `('
+bash: _services: line 5: ` COMPREPLY=($(printf '%s\n' ${sysvdirs[0]}/!($_backup_glob|functions|README)));'
+bash: warning: _services: ignoring function definition attempt
+bash: error importing function definition for `_services'
+bash: _longopt: line 6: syntax error near unexpected token `('
+bash: _longopt: line 6: ` --!(no-*)dir*)'
+bash: error importing function definition for `_longopt'
+[?2004hroot@cs5483-24-g1:~/cs5483-project/stages/data-mining# [Kroot@cs5483-24-g1:~/cs5483-project/stages/data-mining# [3m. ./venv/bin/activate[23m. ./venv/bin/activate
+[?2004l[?2004h(venv) root@cs5483-24-g1:~/cs5483-project/stages/data-mining# [3mpython ./src/65-recursive-feature-elimination/xgboost/main.py > logs/RFE-xg[23m[3mb[23m[3moost.log 2>&1[23mM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython ./src/65-recursive-feature-elimination/xgboost/main.py > logs/RFE-xgboost.log 2>&1
+[?2004l[?2004h(venv) root@cs5483-24-g1:~/cs5483-project/stages/data-mining# 

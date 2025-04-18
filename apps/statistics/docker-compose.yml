@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  statistics:
+    image: oven/bun:latest
+    container_name: statistics
+    working_dir: /app
+    ports:
+      - '8081:8081'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    env_file:
+      - ../mongodb-0/.env
+    volumes:
+      - ./src:/app/src
+      - ./package.json:/app/package.json
+      - ./bun.lock:/app/bun.lock
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./.tokens:/app/.tokens
+      - ../master-0:/master-0
+    networks:
+      - app-network
+    restart: unless-stopped
+    command: sh -c "bun install --production && bun run src/index.ts"
+
+networks:
+  app-network:
+    driver: bridge
